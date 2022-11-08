@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP32-DEVKIT-V1)(type Legacy)(uri ${KIPRJMOD}/ESP32-DEVKIT-V1.lib)(options "")(descr ""))
+  (lib (name HLK-5M05)(type Legacy)(uri ${KIPRJMOD}/HLK-5M05/HLK-5M05.lib)(options "")(descr ""))
+)

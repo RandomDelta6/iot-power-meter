@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MODULE_ESP32_DEVKIT_V1)(type KiCad)(uri ${KIPRJMOD}/MODULE_ESP32_DEVKIT_V1)(options "")(descr ""))
+  (lib (name HLK-5M05)(type KiCad)(uri ${KIPRJMOD}/HLK-5M05)(options "")(descr ""))
+)

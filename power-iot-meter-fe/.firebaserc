@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "power-iot-meter": {
+      "hosting": {
+        "power-iot-meter-fe": [
+          "power-iot-meter"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "power-iot-meter"
+  }
+}

@@ -1,0 +1,9 @@
+<app-nav *ngIf="isSignedIn" (LogOutClick)="signOut()"></app-nav>
+<router-outlet *ngIf="isSignedIn"></router-outlet>
+<app-footer *ngIf="isSignedIn"></app-footer>
+
+<firebase-ui
+  (signInSuccessWithAuthResult)="successCallback($event)"
+  (signInFailure)="errorCallback($event)"
+  (uiShown)="uiShownCallback()"
+></firebase-ui>

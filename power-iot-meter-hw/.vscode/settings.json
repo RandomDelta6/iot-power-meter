@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "numeric": "cpp",
+        "*.yml": "cpp"
+    }
+}

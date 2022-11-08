@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# HLK-5M05
+#
+DEF HLK-5M05 PS 0 40 Y Y 1 L N
+F0 "PS" -300 250 50 H V L BNN
+F1 "HLK-5M05" -300 -300 50 H V L BNN
+F2 "CONV_HLK-5M05" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "N/A" 0 0 50 H I L BNN "PARTREV"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "HI-LINK" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -300 -200 300 200 0 0 8 f
+X AC1 1 -500 100 200 R 40 40 0 0 I 
+X AC2 2 -500 -100 200 R 40 40 0 0 I 
+X -VO 3 500 -100 200 L 40 40 0 0 O 
+X +VO 4 500 100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

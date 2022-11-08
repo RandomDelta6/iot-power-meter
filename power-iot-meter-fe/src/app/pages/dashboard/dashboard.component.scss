@@ -1,0 +1,39 @@
+.container {
+  padding: 1%;
+  height: 70%;
+}
+
+mat-card.element {
+  margin: 1%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.table-card {
+  display: inline-block;
+}
+
+.table-container {
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.power-outage-table {
+  // border: 1px solid black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  // border-radius: 2rem;
+
+  td,
+  th {
+    // border: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.spacer {
+  height: 3rem;
+}

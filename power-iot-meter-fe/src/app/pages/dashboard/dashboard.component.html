@@ -1,0 +1,33 @@
+<div class="container">
+  Last updated on: {{ dataObj.timestamp }}
+  <mat-card class="element" mat-elevation-z8><b>Current:</b> {{ dataObj.current_rms.toFixed(precision) }}A</mat-card>
+  <mat-card class="element" mat-elevation-z8><b>Voltage:</b> {{ dataObj.voltage_rms.toFixed(precision) }}V AC</mat-card>
+  <mat-card class="element" mat-elevation-z8><b>Power:</b>
+    {{
+    dataObj.active_power > 1000
+    ? (dataObj.active_power / 1000).toFixed(precision) + "K"
+    : dataObj.active_power.toFixed(precision)
+    }}W</mat-card>
+  <mat-card class="element" mat-elevation-z8><b>Frequency:</b> {{dataObj.frequency.toFixed(precision)}}</mat-card>
+  <mat-card class="element" mat-elevation-z8><b>Power Factor:</b> {{ dataObj.power_factor.toFixed(precision) }}</mat-card>
+  <mat-card class="element" mat-elevation-z8><b>Energy:</b> {{ dataObj.total_energy }}kWh</mat-card>
+  <mat-card class="element" mat-elevation-z8><b>Estimated Bill:</b> ₹ {{ getBill() }}</mat-card>
+  <mat-card class="element" mat-elevation-z8 class="table-container">
+    <p><b>Power Outage Logs:</b></p>
+    <mat-card class="table-card" mat-elevation-z8>
+      <table class="power-outage-table">
+        <tr>
+          <th>SL.</th>
+          <th>Start Time</th>
+          <th>End Time</th>
+        </tr>
+        <tr *ngFor="let outage of dataObj.power_outages | keyvalue; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ outage.key }}</td>
+          <td>{{ outage.value }}</td>
+        </tr>
+      </table>
+    </mat-card>
+  </mat-card>
+  <div class="spacer"></div>
+</div>
