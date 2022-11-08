@@ -16,6 +16,9 @@ Short Infographic video showcasing the project and primary discussion points is 
   --- power-iot-meter-hw (the firmware sketch)
 ```
 
+## Frontend
+https://user-images.githubusercontent.com/53912269/200559273-a5ed5676-85e9-4193-8ac8-1f9e43998f3b.png
+
 ## Tools used:
 - Angular
 - Platform IO
