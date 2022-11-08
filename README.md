@@ -28,12 +28,3 @@ Short Infographic video showcasing the project and primary discussion points is 
 ## Languages Used: 
 - C/C++
 - JS/TS
-
-## Members:
-- Arnab Das - [@arnabdas01](https://github.com/arnabdas01) 
-- Anindya Kanti Mitra - [@anindyamitra15](https://github.com/anindyamitra15) 
-- Rishav Dutta - [@randomdelta6](https://github.com/RandomDelta6) 
-- Anubhav Dutta - [@anubhav666](https://github.com/anubhav666)
-
-## Acknowledgement:
-- This project has been developed under the guidance of [Dr. Bandana Barman](https://kgec.edu.in/department?name=ece).
