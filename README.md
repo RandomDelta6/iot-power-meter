@@ -17,7 +17,7 @@ Short Infographic video showcasing the project and primary discussion points is 
 ```
 
 ## Frontend Preview
-![12608](https://user-images.githubusercontent.com/53912269/200559498-625e208c-8382-45c8-8555-8d6e2301b609.png)
+![12608](https://user-images.githubusercontent.com/53912269/200559498-625e208c-8382-45c8-8555-8d6e2301b609.png | width = 100)
 
 ## Tools used:
 - Angular
